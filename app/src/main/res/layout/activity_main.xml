@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Багровый"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="393dp"
+        android:layout_height="284dp"
+        android:layout_margin="5dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TableRow
+            android:layout_width="429dp"
+            android:layout_height="match_parent"
+            android:background="@color/Лес"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="159dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:background="@color/Лес"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_vertical"
+                android:text="Вес: \n "
+                android:textColor="#F9A825" />
+
+            <EditText
+                android:id="@+id/Ves"
+                android:layout_width="236dp"
+                android:layout_height="match_parent"
+                android:background="@color/Лес"
+                android:ems="10"
+                android:inputType="text"
+                android:textColor="@color/Золото"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Лес">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:background="@color/Лес"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_vertical"
+                android:text="Эффективность:\n"
+                android:textColor="#F9A825" />
+
+            <EditText
+                android:id="@+id/Effectiv"
+                android:layout_width="231dp"
+                android:layout_height="match_parent"
+                android:background="@color/Лес"
+                android:ems="10"
+                android:inputType="text"
+                android:textColor="@color/Золото"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Лес">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:background="@color/Лес"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_vertical"
+                android:text="Производительность:\n"
+                android:textColor="#F9A825" />
+
+            <EditText
+                android:id="@+id/proizvod"
+                android:layout_width="227dp"
+                android:layout_height="match_parent"
+                android:background="@color/Лес"
+                android:ems="10"
+                android:inputType="text"
+                android:textColor="@color/Золото"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Лес">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:background="@color/Лес"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_vertical"
+                android:text="Надёжность:\n"
+                android:textColor="#F9A825" />
+
+            <EditText
+                android:id="@+id/nadezn"
+                android:layout_width="233dp"
+                android:layout_height="match_parent"
+                android:background="@color/Лес"
+                android:ems="10"
+                android:inputType="text"
+                android:textColor="@color/Золото"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Лес">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:background="@color/Лес"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_vertical"
+                android:text="Защищённость:\n"
+                android:textColor="#F9A825" />
+
+            <EditText
+                android:id="@+id/zashih"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/Лес"
+                android:ems="10"
+                android:inputType="text"
+                android:textColor="@color/Золото" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Лес">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:background="@color/Лес"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_vertical"
+                android:text="Переносимость:\n"
+                android:textColor="#F9A825" />
+
+            <EditText
+                android:id="@+id/perenos"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/Лес"
+                android:ems="10"
+                android:inputType="text"
+                android:textColor="@color/Золото" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/Лес">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:background="@color/Лес"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center_vertical"
+                android:text="Доступность:\n"
+                android:textColor="#F9A825" />
+
+            <EditText
+                android:id="@+id/dostupn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/Лес"
+                android:ems="10"
+                android:inputType="text"
+                android:textColor="@color/Золото"
+                tools:ignore="TouchTargetSizeCheck" />
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="397dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout"
+        app:layout_constraintVertical_bias="0.042">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="176dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/Золото"
+            android:text="@string/НайтиРешение"
+            android:textColor="@color/Лес"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="41dp"
+            android:layout_height="match_parent"
+            android:background="@color/Лес"
+            android:fontFamily="sans-serif-black"
+            android:text="1\n"
+            android:textAlignment="center"
+            android:textColor="#F9A825"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="344dp" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="41dp"
+            android:layout_height="match_parent"
+            android:background="@color/Лес"
+            android:fontFamily="sans-serif-black"
+            android:text="2\n"
+            android:textAlignment="center"
+            android:textColor="#F9A825"
+            tools:layout_editor_absoluteX="201dp"
+            tools:layout_editor_absoluteY="344dp" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="41dp"
+            android:layout_height="match_parent"
+            android:background="@color/Лес"
+            android:fontFamily="sans-serif-black"
+            android:text="3\n"
+            android:textAlignment="center"
+            android:textColor="#F9A825"
+            tools:layout_editor_absoluteX="242dp"
+            tools:layout_editor_absoluteY="344dp" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="41dp"
+            android:layout_height="match_parent"
+            android:background="@color/Лес"
+            android:fontFamily="sans-serif-black"
+            android:text="4\n"
+            android:textAlignment="center"
+            android:textColor="#F9A825"
+            tools:layout_editor_absoluteX="283dp"
+            tools:layout_editor_absoluteY="344dp" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="41dp"
+            android:layout_height="match_parent"
+            android:background="@color/Лес"
+            android:fontFamily="sans-serif-black"
+            android:text="5\n"
+            android:textAlignment="center"
+            android:textColor="#F9A825"
+            tools:layout_editor_absoluteX="324dp"
+            tools:layout_editor_absoluteY="344dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="77dp"
+        android:layout_height="203dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.716">
+
+        <TextView
+            android:id="@+id/elec1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Лес"
+            android:fontFamily="sans-serif-black"
+            android:text="1\n"
+            android:textAlignment="center"
+            android:textColor="#F9A825"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="344dp" />
+
+        <TextView
+            android:id="@+id/elec2"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="@color/Лес"
+            android:fontFamily="sans-serif-black"
+            android:text="2\n"
+            android:textAlignment="center"
+            android:textColor="#F9A825"
+            tools:layout_editor_absoluteX="201dp"
+            tools:layout_editor_absoluteY="344dp" />
+
+        <TextView
+            android:id="@+id/elec3"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="@color/Лес"
+            android:fontFamily="sans-serif-black"
+            android:text="3\n"
+            android:textAlignment="center"
+            android:textColor="#F9A825"
+            tools:layout_editor_absoluteX="242dp"
+            tools:layout_editor_absoluteY="344dp" />
+
+        <TextView
+            android:id="@+id/elec4"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="@color/Лес"
+            android:fontFamily="sans-serif-black"
+            android:text="4\n"
+            android:textAlignment="center"
+            android:textColor="#F9A825"
+            tools:layout_editor_absoluteX="283dp"
+            tools:layout_editor_absoluteY="344dp" />
+
+        <TextView
+            android:id="@+id/elec5"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="@color/Лес"
+            android:fontFamily="sans-serif-black"
+            android:text="5\n"
+            android:textAlignment="center"
+            android:textColor="#F9A825"
+            tools:layout_editor_absoluteX="324dp"
+            tools:layout_editor_absoluteY="344dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="77dp"
+        android:layout_height="203dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout4"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.716">
+
+        <TextView
+            android:id="@+id/perfectPoint1"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="@color/Лес"
+            android:fontFamily="sans-serif-black"
+            android:text="1\n"
+            android:textAlignment="center"
+            android:textColor="#F9A825"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="344dp" />
+
+        <TextView
+            android:id="@+id/perfectPoint2"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="@color/Лес"
+            android:fontFamily="sans-serif-black"
+            android:text="2\n"
+            android:textAlignment="center"
+            android:textColor="#F9A825"
+            tools:layout_editor_absoluteX="201dp"
+            tools:layout_editor_absoluteY="344dp" />
+
+        <TextView
+            android:id="@+id/perfectPoint3"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="@color/Лес"
+            android:fontFamily="sans-serif-black"
+            android:text="3\n"
+            android:textAlignment="center"
+            android:textColor="#F9A825"
+            tools:layout_editor_absoluteX="242dp"
+            tools:layout_editor_absoluteY="344dp" />
+
+        <TextView
+            android:id="@+id/perfectPoint4"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="@color/Лес"
+            android:fontFamily="sans-serif-black"
+            android:text="4\n"
+            android:textAlignment="center"
+            android:textColor="#F9A825"
+            tools:layout_editor_absoluteX="283dp"
+            tools:layout_editor_absoluteY="344dp" />
+
+        <TextView
+            android:id="@+id/perfectPoint5"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="@color/Лес"
+            android:fontFamily="sans-serif-black"
+            android:text="5\n"
+            android:textAlignment="center"
+            android:textColor="#F9A825"
+            tools:layout_editor_absoluteX="324dp"
+            tools:layout_editor_absoluteY="344dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="77dp"
+        android:layout_height="203dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout6"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.716">
+
+        <TextView
+            android:id="@+id/mainKrit1"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="@color/Лес"
+            android:fontFamily="sans-serif-black"
+            android:text="1\n"
+            android:textAlignment="center"
+            android:textColor="#F9A825"
+            tools:layout_editor_absoluteX="160dp"
+            tools:layout_editor_absoluteY="344dp" />
+
+        <TextView
+            android:id="@+id/mainKrit2"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="@color/Лес"
+            android:fontFamily="sans-serif-black"
+            android:text="2\n"
+            android:textAlignment="center"
+            android:textColor="#F9A825"
+            tools:layout_editor_absoluteX="201dp"
+            tools:layout_editor_absoluteY="344dp" />
+
+        <TextView
+            android:id="@+id/mainKrit3"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="@color/Лес"
+            android:fontFamily="sans-serif-black"
+            android:text="3\n"
+            android:textAlignment="center"
+            android:textColor="#F9A825"
+            tools:layout_editor_absoluteX="242dp"
+            tools:layout_editor_absoluteY="344dp" />
+
+        <TextView
+            android:id="@+id/mainKrit4"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="@color/Лес"
+            android:fontFamily="sans-serif-black"
+            android:text="4\n"
+            android:textAlignment="center"
+            android:textColor="#F9A825"
+            tools:layout_editor_absoluteX="283dp"
+            tools:layout_editor_absoluteY="344dp" />
+
+        <TextView
+            android:id="@+id/mainKrit5"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="@color/Лес"
+            android:fontFamily="sans-serif-black"
+            android:text="5\n"
+            android:textAlignment="center"
+            android:textColor="#F9A825"
+            tools:layout_editor_absoluteX="324dp"
+            tools:layout_editor_absoluteY="344dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="103dp"
+        android:layout_height="47dp"
+        android:background="@color/Лес"
+        android:fontFamily="sans-serif-black"
+        android:text="ELECTRE\n"
+        android:textAlignment="center"
+        android:textColor="#F9A825"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+        app:layout_constraintEnd_toStartOf="@+id/textView3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.862" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="142dp"
+        android:layout_height="47dp"
+        android:background="@color/Лес"
+        android:fontFamily="sans-serif-black"
+        android:text="Главный критерий\n"
+        android:textAlignment="center"
+        android:textColor="#F9A825"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+        app:layout_constraintEnd_toStartOf="@+id/textView5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.862" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="131dp"
+        android:layout_height="47dp"
+        android:background="@color/Лес"
+        android:fontFamily="sans-serif-black"
+        android:text="Идеальная точка\n"
+        android:textAlignment="center"
+        android:textColor="#F9A825"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.862" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

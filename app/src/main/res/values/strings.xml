@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Методы многокритериального принятия решений</string>
+    <string name="НайтиРешение">Найти решение</string>
+    <string name="Сбросить">Сбросить</string>
+</resources>
